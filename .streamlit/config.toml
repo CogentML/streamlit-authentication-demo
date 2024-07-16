@@ -10,7 +10,7 @@ fastReruns = true
 
 [server]
 runOnSave = true
-port = 8570
+port = 8501
 
 [client]
 showErrorDetails = true
