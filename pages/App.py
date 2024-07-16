@@ -50,9 +50,9 @@ with st.sidebar:
     elif st.session_state["authentication_status"] is None:
         st.warning('Please enter your username and password')
 
-# Saving config file
-with open('.streamlit/secrets.toml', 'w', encoding='utf-8') as file:
-    toml.dump(config, file)
+# # Saving config file
+# with open('.streamlit/secrets.toml', 'w', encoding='utf-8') as file:
+#     toml.dump(config, file)
 
 if st.session_state["authentication_status"] is False:
     st.warning("Please Login first", "🚨",)
