@@ -1,0 +1,17 @@
+[browser]
+gatherUsageStats = false
+
+[theme]
+font = "sans serif"
+base = "light"
+
+[runner]
+fastReruns = true
+
+[server]
+runOnSave = true
+port = 8570
+
+[client]
+showErrorDetails = true
+
